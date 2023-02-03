@@ -40,7 +40,7 @@ function scienceResult(){
     let chemistryCalculate = calculateGrade(chemistryMarks);
     let higherMathCalculate = calculateGrade(higherMathMarks);
     
-    if(banglaCalculate.point>1.00 && englishCalculate.point>1.00 && mathCalculate.point>1.00 && religionCalculate.point>1.00 && informationTechnologyCalculate.point>1.00 && biologyCalculate.point>1.00 && bangladeshWorldCalculate.point>1.00 && physisCalculate.point>1.00 && chemistryCalculate.point>1.00){
+    if(banglaCalculate.point>=1.00 && englishCalculate.point>=1.00 && mathCalculate.point>=1.00 && religionCalculate.point>=1.00 && informationTechnologyCalculate.point>=1.00 && biologyCalculate.point>=1.00 && bangladeshWorldCalculate.point>=1.00 && physisCalculate.point>=1.00 && chemistryCalculate.point>=1.00){
         higherMathPoint = higherMathCalculate.point - 2;
 
         let sumofAllSubject = banglaCalculate.point + englishCalculate.point + mathCalculate.point + religionCalculate.point + informationTechnologyCalculate.point + biologyCalculate.point +bangladeshWorldCalculate.point + physisCalculate.point + chemistryCalculate.point + higherMathPoint ;
@@ -105,7 +105,7 @@ function commerceResult(){
     let entrepreneurshipCalculate = calculateGrade(entrepreneurshipMarks);
     let agricultureCalculate = calculateGrade(agricultureMarks);
     
-    if(banglaCalculate.point>1.00 && englishCalculate.point>1.00 && mathCalculate.point>1.00 && religionCalculate.point>1.00 && informationTechnologyCalculate.point>1.00 && accountingCalculate.point>1.00 && bangladeshWorldCalculate.point>1.00 && finaceCalculate.point>1.00 && entrepreneurshipCalculate.point>1.00){
+    if(banglaCalculate.point>=1.00 && englishCalculate.point>=1.00 && mathCalculate.point>=1.00 && religionCalculate.point>=1.00 && informationTechnologyCalculate.point>=1.00 && accountingCalculate.point>=1.00 && bangladeshWorldCalculate.point>=1.00 && finaceCalculate.point>=1.00 && entrepreneurshipCalculate.point>=1.00){
         agriculturePoint = agricultureCalculate.point - 2;
 
         let sumofAllSubject = banglaCalculate.point + englishCalculate.point + mathCalculate.point + religionCalculate.point + informationTechnologyCalculate.point + accountingCalculate.point +bangladeshWorldCalculate.point + finaceCalculate.point + entrepreneurshipCalculate.point + agriculturePoint ;
@@ -171,7 +171,7 @@ function humanitiesResult(){
     let CivicCitizenshipCalculate = calculateGrade(CivicCitizenshipMarks);
     let agricultureCalculate = calculateGrade(agricultureMarks);
     
-    if(banglaCalculate.point>1.00 && englishCalculate.point>1.00 && mathCalculate.point>1.00 && religionCalculate.point>1.00 && informationTechnologyCalculate.point>1.00 && geographyCalculate.point>1.00 && bangladeshWorldCalculate.point>1.00 && historyCalculate.point>1.00 && CivicCitizenshipCalculate.point>1.00){
+    if(banglaCalculate.point>=1.00 && englishCalculate.point>=1.00 && mathCalculate.point>=1.00 && religionCalculate.point>=1.00 && informationTechnologyCalculate.point>=1.00 && geographyCalculate.point>=1.00 && bangladeshWorldCalculate.point>=1.00 && historyCalculate.point>=1.00 && CivicCitizenshipCalculate.point>=1.00){
         agriculturePoint = agricultureCalculate.point - 2;
 
         let sumofAllSubject = banglaCalculate.point + englishCalculate.point + mathCalculate.point + religionCalculate.point + informationTechnologyCalculate.point + geographyCalculate.point +bangladeshWorldCalculate.point + historyCalculate.point + CivicCitizenshipCalculate.point + agriculturePoint ;
