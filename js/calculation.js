@@ -157,7 +157,7 @@ function humanitiesResult(){
         } else if (marks >= 0 && marks <= 32) {
           return { grade: "F", point: 0.00 };
         } else {
-          return "Invalid marks";
+          return "Invalid marks/Please check again";
         }
     }
     let banglaCalculate = calculateGrade(banglaMarks);
